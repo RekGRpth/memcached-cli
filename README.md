@@ -1,5 +1,5 @@
 # memcached-cli
-memcached command line client
+memcached command line interface
 
 ```sh
 This sets a key on the memcached server.
