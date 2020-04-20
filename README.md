@@ -1,6 +1,7 @@
 # memcached-cli
-memcached command line client
+memcached command line interface
 
+```sh
 This sets a key on the memcached server.
 This retrieves a key from the memcached server.
 This lists the keys on the memcached server.
@@ -17,3 +18,4 @@ Options:
  -N [NOREPLY] Optional parameter that inform the server to not send the reply.
  -P [PORT] Memcached port to connect to. Default is MEMCACHED_PORT environment variable if it set or 11211 else.
  -V [VALUE] The data to stored.
+```
