@@ -44,8 +44,7 @@ memcached_8() {
 }
 
 memcached_cachedump() {
-    local count=0
-    while read cache number; do
+    while read -r cache number; do
         echo -e "stats cachedump $cache $number\r" | nc "$1" "$2" | sed -e '$ d' | cut -d' ' -f 2
     done
 }
